@@ -1,0 +1,611 @@
+body{
+	margin: 0;
+	padding: 1rem;
+	background-color: white;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+img{
+    height: 150px;
+}
+u{
+    text-decoration: none;
+    border-radius: 50px;
+    background: white;
+    box-shadow:  27px 27px 54px #a3a0a0,
+                 -27px -27px 54px #ffffff;
+                 padding: 0.2rem;
+               
+}
+.CartContainer{
+	width: 70%;
+	height: 80%;
+	padding: 1rem;
+    border-radius: 20px;
+    border-radius: 50px;
+    background: white;
+    box-shadow:  27px 27px 54px #a3a0a0,
+                 -27px -27px 54px #ffffff;
+}
+.Productcard{
+  margin: 2rem;
+  padding: 1rem;
+    border-radius: 20px;
+    border-radius: 50px;
+    background: white;
+    box-shadow:  27px 27px 54px #a3a0a0,
+                 -27px -27px 54px #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+.Blakfriday1{
+ height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-width: 0;
+  border-radius: 20px;
+    border-radius: 50px;
+    background: white;
+    box-shadow:  27px 27px 54px #a3a0a0,
+                 -27px -27px 54px #ffffff;
+  padding:0.8rem;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  color: black !important;
+  font-family:'M PLUS Rounded 1c', sans-serif;
+font-weight: 800;
+  text-decoration: none !important ; 
+  margin: 0.5rem;
+  font-size:30px ;
+}
+.Blakfriday2{
+  height:50%;
+  width: 10%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border-width: 0;
+   border-radius: 20px;
+     border-radius: 50px;
+     background: white;
+     box-shadow:  27px 27px 54px #a3a0a0,
+                  -27px -27px 54px #ffffff;
+   padding:0.8rem;
+   transition: opacity 0.15s;
+   cursor: pointer;
+   color: black !important;
+   font-family:'M PLUS Rounded 1c', sans-serif;
+ font-weight: 800;
+   text-decoration: none !important ; 
+   margin: 0.5rem;
+   font-size:30px ;
+ }
+.Blakfriday1 p{
+  font-size:18px ;
+  font-family:'M PLUS Rounded 1c', sans-serif;
+  font-weight:600;
+}
+.Blakfriday1:hover{
+  opacity: 0.5;
+}
+.Blakfriday1 input[type="submit"]{
+  font-size:18px ;
+  font-family:'M PLUS Rounded 1c', sans-serif;
+  font-weight:600;
+  width: 300px;
+  height: 200px;
+  border-width: 0;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  24px 24px 48px #aaaaaa,
+               -24px -24px 48px #ffffff;
+}
+.Blakfriday2 input[type="submit"]{
+ 
+  font-size:30px ;
+  font-family:'M PLUS Rounded 1c', sans-serif;
+  font-weight:600;
+  width: 300px;
+  height: 200px;
+  border-width: 0;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  24px 24px 48px #aaaaaa,
+               -24px -24px 48px #ffffff;
+}
+.Productcard1{
+  margin: 2rem;
+  padding: 1rem;
+    border-radius: 20px;
+    border-radius: 50px;
+    background: white;
+    box-shadow:  27px 27px 54px #a3a0a0,
+                 -27px -27px 54px #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.amount{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 30%;
+}
+
+.Header{
+	margin: auto;
+	width: 90%;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.Header h1{
+  font-size: 40px;
+}
+.BlackFridayBanner1{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      width:100px;
+      height: 50px;
+    background-color: Red;
+     
+      text-align: center;
+     
+  }
+  .BlackFridayBanner1 span{
+    font-size: 15px;
+      font-family: cursive;
+      color: white;
+      animation: BlackFridayBanner1 1s linear infinite;
+      
+  }
+  @keyframes BlackFridayBanner1{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+    }
+    .BlackFridayBanner1 h3{
+      font-size: 10px;
+    }
+    .BlackFridayBanner3{
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+          width:100%;
+          height: 40px;
+        background-color: Red;
+         
+          text-align: center;
+         
+      }
+      .BlackFridayBanner3 span{
+        font-size: 15px;
+          font-family: cursive;
+          color: white;
+          animation: BlackFridayBanner3 1s linear infinite;
+          
+      }
+      @keyframes BlackFridayBanner3{
+        0%{opacity: 0;}
+        50%{opacity: .5;}
+        100%{opacity: 1;}
+        }
+        .BlackFridayBanner1 h3{
+          font-size: 10px;
+        }
+.Heading{
+	font-size: 20px;
+	
+	font-weight: 700;
+	color:Black;
+}
+
+.Action{
+   
+	font-size: 14px;
+    margin: 10px;
+	font-weight: 600;
+	color: Black;
+	cursor: pointer;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-decoration: none;
+    border-radius: 50px;
+    background: white;
+    box-shadow:  27px 27px 54px #a3a0a0,
+                 -27px -27px 54px #ffffff;
+                 padding: 0.2rem;
+               
+}
+
+.Cart-Items{
+	margin: auto;
+	width: 90%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about{
+	height: 100%;
+	width: 24%;
+}
+.title{
+	padding-top: 10px;
+	line-height: 10px;
+	font-size: 32px;
+
+	font-weight: 800;
+	color: #202020;
+}
+
+
+.counter{
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #d9d9d9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	
+	font-weight: 900;
+	color:black;
+	cursor: pointer;
+}
+.count{
+	font-size: 20px;
+	
+	font-weight: 600;
+	color: black;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-end;
+	height: 100%;
+	text-align: right;
+}
+.amount{
+	padding-top: 20px;
+	font-size: 26px;
+
+	font-weight: 800;
+	color:black;
+}
+.save{
+	padding-top: 5px;
+	font-size: 14px;
+    margin: 10px;
+	font-weight: 600;
+	color: #717171;
+    
+	cursor: pointer;
+}
+.remove{
+	padding-top: 5px;
+	font-size: 14px;
+    margin: 10px;
+	font-weight: 600;
+	color: Red;
+	cursor: pointer;
+}
+.remove u{
+    text-decoration: none;
+}
+
+.pad{
+	margin-top: 5px;
+}
+
+hr{
+	width: 66%;
+	float: right;
+	margin-right: 5%;
+}
+.checkout{
+	float: right;
+	margin-right: 5%;
+	width: 28%;
+}
+.total{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.Subtotal{
+	font-size: 22px;
+	
+	font-weight: 700;
+	color: #202020;
+}
+.items{
+	font-size: 16px;
+	
+	font-weight: 500;
+	color: #909090;
+	line-height: 10px;
+}
+.total-amount{
+	font-size: 36px;
+
+	font-weight: 900;
+	color: #202020;
+}
+.button{
+	margin-top: 15px;
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-radius: 50px;
+background: linear-gradient(145deg, #ffffff, #e6e1e1);
+box-shadow:  27px 27px 54px #a3a0a0,
+             -27px -27px 54px #ffffff;
+	cursor: pointer;
+	font-size: 16px;
+
+	font-weight: 600;
+	color:black;
+}
+.shipping{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 15px;
+}
+.black{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.links1{
+  
+    border: #717171;
+    border-radius: 50px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow:  27px 27px 54px #a3a3a3,
+               -27px -27px 54px #ffffff;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 0.1rem;
+    transition: opacity 0.15s;
+    cursor: pointer;
+    color: black;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    margin: 2rem;
+    }
+    .links1:hover{
+      opacity: 0.5;
+    }
+    @media screen and (max-width: 400px) {
+      body{
+        margin: 0;
+        padding: 0.8rem;
+        background-color: white;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+      }
+      img{
+        height: 100px;
+    }
+    .total-amount{
+      font-size: 18px;
+    
+      font-weight: 900;
+      color: #202020;
+    }
+    .total{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .Subtotal{
+      font-size: 18px;
+      
+      font-weight: 700;
+      color: #202020;
+    }
+    .CartContainer{
+      margin-top: 1rem;
+      width: 90%;
+      height: 100%;
+      padding: 0.9rem;
+        border-radius: 20px;
+        border-radius: 50px;
+        background: white;
+        box-shadow:  27px 27px 54px #a3a0a0,
+                     -27px -27px 54px #ffffff;
+    }
+    .shipping{
+     margin-top: 9rem;
+      
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-size: 12px;
+  }
+  .ending{
+    display: flex;
+    flex-direction: column;
+  }
+  .checkout{
+    float: right;
+    margin-right: 5%;
+    width: 45%;
+  }
+  .amount{
+    padding-top: 20px;
+    font-size: 18px;
+  
+    font-weight: 800;
+    color:black;
+  }
+  .title{
+    padding-top: 8px;
+    line-height: 8px;
+    font-size: 20px;
+  
+    font-weight: 800;
+    color: #202020;
+  }
+  .BlackFridayBanner1{
+    width:90px;
+      height: 40px;
+  }
+  .BlackFridayBanner1 h3{
+    font-size: 9px;
+  }
+  .BlackFridayBanner3{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      width:100%;
+      height: 33px;
+    background-color: Red;
+     padding: 0.1rem;
+      text-align: center;
+     
+  }
+  .BlackFridayBanner3 span{
+    font-size: 11px;
+      font-family: cursive;
+      color: white;
+      animation: BlackFridayBanner3 1s linear infinite;
+      
+  }
+  .BlackFridayBanner3 h3{
+    font-size: 11px;
+  }
+  .Cart-Items{
+    margin: auto;
+    width: 95%;
+    height: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Heading{
+    font-size: 15px;
+    
+    font-weight: 700;
+    color:Black;
+  }
+  .Header{
+    margin: auto;
+    width: 85%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .Action{
+     height: 25px;
+     font-size: 15px;
+    margin: 8px;
+    font-weight: 600;
+    color: Black;
+    cursor: pointer;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+      text-decoration: none;
+      border-radius: 20px;
+      background: white;
+      box-shadow:  27px 27px 54px #a3a0a0,
+                   -27px -27px 54px #ffffff;
+                  padding: 0.2rem;
+      text-align: center;     
+  }
+  .Action h5{
+    margin: 0;
+  }
+
+  .counter{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn{
+    width: 35px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin:5px;
+    font-weight: 900;
+    color:black;
+    cursor: pointer;
+  }
+  .count{
+    font-size: 15px;
+    
+    font-weight: 600;
+    color: black;
+  }
+  .items{
+    font-size: 12px;
+    margin: 10px;
+    font-weight: 500;
+    color: black;
+    font-weight: 600;
+    line-height: 8px;
+  }
+  .button{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+  background: linear-gradient(145deg, #ffffff, #e6e1e1);
+  box-shadow:  27px 27px 54px #a3a0a0,
+               -27px -27px 54px #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+  
+    font-weight: 600;
+    color:black;
+  }
+    }
